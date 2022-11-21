@@ -8,7 +8,7 @@ SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-Document
 DocumentNamespace: spdx:kernkonzept/zlib-dfa9e6ec-9aad-401e-8a1f-54afaf3b21c5
-DocumentName: LICENSE.spdx
+DocumentName: zlib
 
 Creator: Organization: Kernkonzept GmbH (info@kernkonzept.com)
 
