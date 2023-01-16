@@ -16,3 +16,7 @@ DEBUG 		= 0
 vpath %.c $(SRC_DIR)/../contrib
 
 include $(L4DIR)/mk/lib.mk
+
+CFLAGS += -Wno-deprecated-non-prototype \
+          -Wno-strict-prototypes \
+          -Wno-unknown-warning-option
