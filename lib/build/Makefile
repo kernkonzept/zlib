@@ -1,7 +1,7 @@
 PKGDIR		?= ../..
 L4DIR		?= $(PKGDIR)/../..
 
-TARGET		= libl4z.a libl4z.so libl4z.p.a
+TARGET		= libz.a libz.so libz.p.a
 SYSTEMS	        = $(SYSTEMS_ABI) $(SYSTEMS_PLAIN)
 CONTRIB_INCDIR	= zlib
 PC_FILENAME     = $(if $(filter %-l4f,$(SYSTEM)),zlib)
