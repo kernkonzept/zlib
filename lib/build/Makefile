@@ -5,6 +5,7 @@ TARGET		= libz.a libz.so libz.p.a
 SYSTEMS	        = $(SYSTEMS_ABI) $(SYSTEMS_PLAIN)
 CONTRIB_INCDIR	= zlib
 PC_FILENAME     = $(if $(filter %-l4f,$(SYSTEM)),zlib)
+DEFINES         = -DHAVE_UNISTD_H
 SRC_C		= adler32.c compress.c crc32.c deflate.c gzclose.c gzlib.c \
                   gzread.c gzwrite.c infback.c inffast.c inflate.c inftrees.c \
 		  trees.c uncompr.c zutil.c
